@@ -25,7 +25,7 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
@@ -74,7 +74,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(6, 10, 253);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -82,10 +82,12 @@ header {
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
+  margin: 20px 20px 20px 20px;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 5px 10px rgba(31, 121, 255, 0.473);
+  text-shadow: 2px 2px rgb(0, 153, 255);
 }
 
 button[disabled] {
@@ -112,7 +114,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dotted #c0c7cf;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
